@@ -1,0 +1,74 @@
+
+/* Color Theme Swatches in Hex */
+.Müngstener-Brücke-1-hex { color: #72808C; }
+.Müngstener-Brücke-2-hex { color: #D5E5F2; }
+.Müngstener-Brücke-3-hex { color: #667302; }
+.Müngstener-Brücke-4-hex { color: #4F5902; }
+.Müngstener-Brücke-5-hex { color: #3E4001; }
+
+/* Color Theme Swatches in RGBA */
+.Müngstener-Brücke-1-rgba { color: rgba(113, 127, 140, 1); }
+.Müngstener-Brücke-2-rgba { color: rgba(213, 228, 242, 1); }
+.Müngstener-Brücke-3-rgba { color: rgba(101, 114, 2, 1); }
+.Müngstener-Brücke-4-rgba { color: rgba(79, 89, 1, 1); }
+.Müngstener-Brücke-5-rgba { color: rgba(61, 63, 1, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Müngstener-Brücke-1-hsla { color: hsla(208, 10, 49, 1); }
+.Müngstener-Brücke-2-hsla { color: hsla(208, 53, 89, 1); }
+.Müngstener-Brücke-3-hsla { color: hsla(67, 96, 22, 1); }
+.Müngstener-Brücke-4-hsla { color: hsla(67, 96, 17, 1); }
+.Müngstener-Brücke-5-hsla { color: hsla(61, 96, 12, 1); }
+
+body {
+    background-color: #D5E5F2;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:auto;
+    padding:0;
+}
+
+nav {
+    background-color: #72808C;
+    display: flex;
+
+}
+ nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+ }
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Headshot {
+    text-align:center;
+    height: 350px;
+    display:block;
+    margin:auto;
+    border-radius: 50%;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #72808C;
+    color: #D5E5F2;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    max-width: 50px;
+    max-height: 50px;
+    justify-content: space-around;
+}
